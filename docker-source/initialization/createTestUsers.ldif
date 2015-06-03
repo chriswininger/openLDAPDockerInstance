@@ -1,0 +1,38 @@
+dn: cn=Chris Wininger,ou=Users,dc=airspring,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: top
+cn: Chris Wininger
+sn: Wininger
+uid: cwininger
+userpassword: xxx
+description: defies any
+
+dn: cn=Bob Vance,ou=Users,dc=airspring,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: top
+cn: Bob Vance
+sn: Vance
+uid: bvance
+userpassword: xxx
+mail: blary@cmail.com
+description: Bob of Vance Refrigeration
+
+dn: cn=Face of Boe,ou=Users,dc=airspring,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: top
+cn: Face of Boe
+sn: Harkness
+uid: fboe
+userpassword: xxx
+
+dn: cn=Tyler Durden,dc=airspring,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: top
+cn: Tyler Durden
+sn: Durden
+uid: tdurden
+userpassword: xxx

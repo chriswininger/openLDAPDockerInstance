@@ -1,0 +1,13 @@
+dn: cn=authenticated users,ou=Users,dc=airspring,dc=com
+objectclass: groupOfUniqueNames
+objectclass: top
+cn: authenticated users
+uniquemember: cn=Chris Wininger,ou=Users,dc=airspring,dc=com
+uniquemember: cn=Face of Boe,ou=Users,dc=airspring,dc=com
+uniquemember: cn=Bob Vance,ou=Users,dc=airspring,dc=com
+
+dn: cn=super users,ou=Users,dc=airspring,dc=com
+objectclass: groupOfUniqueNames
+objectclass: top
+cn: super users
+uniquemember: cn=Tyler Durden,dc=airspring,dc=com
