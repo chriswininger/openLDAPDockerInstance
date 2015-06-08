@@ -14,6 +14,8 @@ ADD ./docker-source/initialization /ldap-initialization
 RUN service slapd start ;\
 	echo 'run back.ldif' &&\
 	ldapadd -Y EXTERNAL -H ldapi:/// -f /ldap-initialization/back.ldif &&\
+	echo 'create new attributes' &&\
+	ldapmodify -Q -Y EXTERNAL -H ldapi:/// -f /ldap-initialization/createAttributes.ldif &&\
 	echo 'run createOrgUnits.ldif' &&\
 	ldapadd -x -D cn=admin,dc=airspring,dc=com -w xxx -c -f /ldap-initialization/createOrgUnits.ldif &&\
 	echo 'run createTestUsers.ldif' &&\
