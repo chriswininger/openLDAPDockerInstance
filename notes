@@ -1,5 +1,9 @@
-working commands: 
+ldap command examples: 
 
 ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:/// -b dc=airspring,dc=com dn
 ldapsearch -H ldap://localhost:389 -D "cn=admin,dc=airspring,dc=com" -w xxx -b dc=airspring,dc=com dn
 ldapsearch -H ldap://localhost:32768 -D "cn=admin,dc=airspring,dc=com" -w xxx -b dc=airspring,dc=com dn
+
+
+run ldap in debug mode:
+/usr/sbin/slapd -d Any -h "ldap://127.0.0.1:389 ldapi:///"

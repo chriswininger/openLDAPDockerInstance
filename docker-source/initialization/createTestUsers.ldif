@@ -45,3 +45,13 @@ uid: tdurden
 userpassword: xxx
 verified: TRUE
 
+dn: cn=Ghost Matt,ou=Users,dc=airspring,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: extensibleObject
+objectclass: top
+cn: Ghost Matt
+sn: Ghost
+uid: tdurden
+userpassword: xxx
+verified: TRUE
