@@ -8,6 +8,7 @@ sn: Wininger
 uid: cwininger
 userpassword: xxx
 description: defies any
+verified: TRUE
 
 dn: cn=Bob Vance,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
@@ -20,6 +21,7 @@ uid: bvance
 userpassword: xxx
 mail: blary@cmail.com
 description: Bob of Vance Refrigeration
+verified: TRUE
 
 dn: cn=Face of Boe,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
@@ -30,6 +32,7 @@ cn: Face of Boe
 sn: Harkness
 uid: fboe
 userpassword: xxx
+verified: TRUE
 
 dn: cn=Tyler Durden,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
@@ -40,3 +43,5 @@ cn: Tyler Durden
 sn: Durden
 uid: tdurden
 userpassword: xxx
+verified: TRUE
+

@@ -2,9 +2,10 @@ dn: cn=schema,cn=config
 changetype: modify
 add: olcAttributeTypes
 olcAttributeTypes: (
-  4.6.6.6.6.1
+  1.3.6.1.4.1.4203.666.001
   NAME 'verified'
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
   SINGLE-VALUE
+  EQUALITY booleanMatch
   DESC 'indicates if a user requires verification before granting access'
   X-ORIGIN 'airspring software' )
