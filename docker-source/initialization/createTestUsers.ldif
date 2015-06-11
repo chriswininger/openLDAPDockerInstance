@@ -1,4 +1,4 @@
-dn: cn=Chris Wininger,ou=Users,dc=airspring,dc=com
+dn: uid=cwininger,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
 objectclass: person
 objectclass: extensibleObject
@@ -10,7 +10,7 @@ userpassword: xxx
 description: defies any
 verified: TRUE
 
-dn: cn=Bob Vance,ou=Users,dc=airspring,dc=com
+dn: uid=bvance,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
 objectclass: person
 objectclass: extensibleObject
@@ -23,7 +23,7 @@ mail: blary@cmail.com
 description: Bob of Vance Refrigeration
 verified: TRUE
 
-dn: cn=Face of Boe,ou=Users,dc=airspring,dc=com
+dn: uid=fboe,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
 objectclass: person
 objectclass: extensibleObject
@@ -34,7 +34,7 @@ uid: fboe
 userpassword: xxx
 verified: TRUE
 
-dn: cn=Tyler Durden,ou=Users,dc=airspring,dc=com
+dn: uid=tdurden,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
 objectclass: person
 objectclass: extensibleObject
@@ -45,13 +45,13 @@ uid: tdurden
 userpassword: xxx
 verified: TRUE
 
-dn: cn=Ghost Matt,ou=Users,dc=airspring,dc=com
+dn: uid=ghost,ou=Users,dc=airspring,dc=com
 objectclass: inetOrgPerson
 objectclass: person
 objectclass: extensibleObject
 objectclass: top
 cn: Ghost Matt
 sn: Ghost
-uid: tdurden
+uid: ghost
 userpassword: xxx
 verified: TRUE
