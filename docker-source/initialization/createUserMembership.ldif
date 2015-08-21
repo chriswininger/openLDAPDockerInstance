@@ -6,12 +6,6 @@ uniquemember: uid=cwininger,ou=Users,dc=airspring,dc=com
 uniquemember: uid=fboe,ou=Users,dc=airspring,dc=com
 uniquemember: uid=bvance,ou=Users,dc=airspring,dc=com
 
-dn: cn=super users,ou=Users,dc=airspring,dc=com
-objectclass: groupOfUniqueNames
-objectclass: top
-cn: super users
-uniquemember: uid=tdurden,dc=airspring,dc=com
-
 dn: cn=authorizedUsers,ou=Users,dc=airspring,dc=com
 objectclass: groupOfUniqueNames
 objectclass: top
